@@ -13,9 +13,10 @@ struct mystruct
 } ;
 mystruct *root,*firstLeaf;
 
+
 mystruct* createNode()          //increase adress size
 {
-    mystruct *m=new mystruct();
+    mystruct *m = new mystruct();
 
     m->point = new mystruct *[n+1];
     m->english=new string[n];
